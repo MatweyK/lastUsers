@@ -1,0 +1,5 @@
+users.table:
+  title: Users
+  route_name: users.table
+  weight: 9
+  menu_name: main

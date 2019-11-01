@@ -1,0 +1,16 @@
+{#
+/**
+ * @file
+ * Default theme implementation to print users table registered for last 24 hours.
+ *
+ * Available variables:
+ *   - source_text
+ *
+ * @ingroup themeable
+ */
+#}
+<table >
+  {% for item in source_text %}
+    <tr><td>{{ item }}</td></tr>
+  {% endfor %}
+</table>

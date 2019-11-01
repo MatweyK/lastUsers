@@ -1,0 +1,7 @@
+users.table:
+  path: '/users-table'
+  defaults:
+    _controller: '\Drupal\users\Controller\UsersController::getUsers'
+    _title: 'Users who are registered for last 24 hours'
+  requirements:
+    _permission: 'access content'
